@@ -1,4 +1,3 @@
-import _ from "lodash";
 import {Node} from "./util/graph";
 import {createGraph} from "./map";
 
@@ -13,12 +12,9 @@ for (let i = 0; i < 50; i++) {
     nodes.push(new Node(Math.random()*50|0, Math.random()*50|0))
 }
 
-_.forEach(nodes, node => console.log(`Point[{${node.x}, ${node.y}}],`));
-
 const edges = createGraph(nodes);
-_.forEach(edges, edge => console.log(`Line[{{${edge.a.x},${edge.a.y}},{${edge.b.x},${edge.b.y}}}],`));
+console.log(edges);
 
-// const express = require("express");
 import express from "express";
 
 const app = express();

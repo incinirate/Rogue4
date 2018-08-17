@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node -r esm --experimental-modules ./src/app.js"
   },
   "dependencies": {
     "delaunay-triangulate": "^1.1.6",

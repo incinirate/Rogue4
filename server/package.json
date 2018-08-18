@@ -9,6 +9,9 @@
     "delaunay-triangulate": "^1.1.6",
     "esm": "^3.0.77",
     "express": "~4.16.0",
-    "lodash": "^4.17.10"
+    "l1-path-finder": "^1.0.0",
+    "lodash": "^4.17.10",
+    "ndarray": "^1.0.18",
+    "quadtree-lib": "^1.0.9"
   }
 }
